@@ -12,7 +12,7 @@ import {
 import { ItemsService } from './items.service';
 import { Item } from '../entities/item.entity';
 import { CreateItemDto } from './dto/create-item.dto';
-import { JwtAuthGuard } from 'src/auth/guards/jwt-auth.guard';
+import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
 
 @Controller('items')
 export class ItemsController {

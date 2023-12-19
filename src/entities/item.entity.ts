@@ -1,4 +1,4 @@
-import { ItemStatus } from 'src/items/item-status.enum';
+import { ItemStatus } from '../items/item-status.enum';
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
